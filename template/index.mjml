@@ -1,0 +1,24 @@
+<mjml lang="en">
+  <mj-head>
+    <mj-title>Hello MJML</mj-title>
+    <mj-preview>Preheader text here</mj-preview>
+    <mj-breakpoint width="480px" />
+    <mj-font name="Raleway" href="https://fonts.googleapis.com/css?family=Raleway" />
+
+    <mj-attributes>
+      <mj-all font-family="Raleway, Arial" />
+
+      <mj-body width="600px" />
+      <mj-section padding="0" />
+      <mj-text font-size="16px" line-height="24px" />
+    </mj-attributes>
+
+    <mj-style>
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-section background-color="#f0f0f0">
+    </mj-section>
+
+  </mj-body>
+</mjml>

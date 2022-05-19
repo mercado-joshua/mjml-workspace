@@ -1,0 +1,17 @@
+{
+  "name": "mjml-workspace",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "mjml src/index.mjml -o src/index.html",
+    "start": "mjml -w src/index.mjml -o src/index.html",
+    "server": "live-server --host=localhost --open=src",
+    "dev": "concurrently \"yarn start\" \"yarn server\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.2.0",
+    "live-server": "^1.2.2",
+    "mjml": "^4.12.0"
+  }
+}
